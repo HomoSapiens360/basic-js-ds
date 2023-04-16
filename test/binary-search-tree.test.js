@@ -24,12 +24,12 @@ describe('Binary search tree', () => {
     it.optional('has methods', () => {
       const instance = new BinarySearchTree();
       expect(instance).to.respondTo('root');
-      //expect(instance).to.respondTo('add');
-      //expect(instance).to.respondTo('find');
-      //expect(instance).to.respondTo('has');
-      //expect(instance).to.respondTo('remove');
-      //expect(instance).to.respondTo('min');
-      //expect(instance).to.respondTo('max');
+      expect(instance).to.respondTo('add');
+      expect(instance).to.respondTo('find');
+      expect(instance).to.respondTo('has');
+      expect(instance).to.respondTo('remove');
+      expect(instance).to.respondTo('min');
+      expect(instance).to.respondTo('max');
     });
   });
 

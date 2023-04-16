@@ -196,7 +196,7 @@ class BinarySearchTree {
           continue;
         }
       }
-
+      return;
     }
   }
 
